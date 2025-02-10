@@ -1,8 +1,7 @@
 import type { PlaywrightTestConfig } from '@playwright/test';
-import { devices } from '@playwright/test';
 
 const config: PlaywrightTestConfig = {
-  testDir: './tests/api',
+  testDir: './tests/api/reqres',
   retries: 3,
   workers: 2,
   timeout: 30000, // for the overral test
