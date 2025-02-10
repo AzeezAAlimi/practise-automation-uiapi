@@ -1,15 +1,16 @@
-import { defineConfig, devices } from '@playwright/test';
+import { defineConfig } from '@playwright/test';
 
 export default defineConfig({
   testDir: './tests/uiandapi',
-  timeout: 40 * 1000,
+  timeout: 30 * 1000,
   expect: {
-    timeout: 40 * 1000,
+    timeout: 5000,
   },
-  reporter: 'html',
+  reporter: [['html', { outputFolder: 'my-report' }]],
   use: {
     headless: false,
     browserName: 'chromium',
-    trace: 'on-first-retry',
+    screenshot: 'on',
+    trace: 'on',
   },
 });
