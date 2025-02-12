@@ -1,20 +1,29 @@
 import { test, expect } from '@playwright/test';
 
-test.beforeEach('UI example login 2', async ({ page }) => {
-  await page.goto('https://rahulshettyacademy.com/client');
-  await page.locator('input[id="userEmail"]').fill('qaairbnb0@gmail.com');
-  await page.locator('input[id="userPassword"]').fill('Test1234?');
-  await page.getByRole('button', { name: 'Login' }).click();
-  await page.waitForURL('https://rahulshettyacademy.com/client/dashboard/dash');
-  expect(page.url()).toBe(
-    'https://rahulshettyacademy.com/client/dashboard/dash',
-  );
-});
-
 test('Example 1', async ({ page }) => {
-  await page.locator('.card-body b').first().waitFor();
-  const cardTitles = page.locator('.card-body b');
-  console.log(await cardTitles.nth(0).textContent());
-  const allTitles = await cardTitles.allTextContents();
-  console.log(allTitles);
+  const month = '6';
+  const date = '15';
+  const year = '2027';
+  const expectedList = [month, date, year];
+  await page.goto('https://rahulshettyacademy.com/seleniumPractise/#/offers');
+  await page
+    .locator(
+      '[class="react-date-picker__calendar-button react-date-picker__button"]',
+    )
+    .click();
+  await page.locator('[class="react-calendar__navigation__label"]').click();
+  await page.locator('[class="react-calendar__navigation__label"]').click();
+  await page.getByText(year).click();
+  await page
+    .locator('[class*="react-calendar__year-view__months__month"]')
+    .nth(Number(month) - 1)
+    .click();
+  await page.locator("//abbr[text()='" + date + "']").click();
+  const values = await page.locator(
+    '[class*="react-date-picker__inputGroup inout"]',
+  );
+  for (let i = 0; i < (await values.count()); i++) {
+    const value = await values.nth(i).getAttribute('value');
+    expect(value).toEqual(expectedList[i]);
+  }
 });
