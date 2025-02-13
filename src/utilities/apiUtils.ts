@@ -10,8 +10,8 @@ interface OrderPayload {
 }
 
 interface CreateOrderResponse {
-    token: string;
-    orderId: string;
+  token: string;
+  orderId: string;
 }
 export class APIUtils {
   private apiContext: APIRequestContext;
