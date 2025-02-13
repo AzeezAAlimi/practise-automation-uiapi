@@ -1,4 +1,5 @@
-import { test, expect, request } from '@playwright/test';
+import { test, expect, request, APIRequestContext } from '@playwright/test';
+import { APIUtils } from '../../utilities/apiUtils';
 
 const loginPayload = {
   userEmail: 'qaairbnb0@gmail.com',
@@ -8,45 +9,18 @@ const orderPayload = {
   orders: [{ country: 'Poland', productOrderedId: '67a8dde5c0d3e6622a297cc8' }],
 };
 
-let token;
-let orderId;
+let response: { token: string; orderId: string };
 
 test.beforeAll(async () => {
-  // Login API
-  const apiContext = await request.newContext();
-  const loginResponse = await apiContext.post(
-    'https://rahulshettyacademy.com/api/ecom/auth/login',
-    {
-      data: loginPayload,
-    },
-  );
-  expect(loginResponse.ok()).toBeTruthy();
-  const loginResponseJson = JSON.parse(await loginResponse.text());
-  token = loginResponseJson.token;
-  console.log(token);
-
-  //
-  const orderResponse = await apiContext.post(
-    'https://rahulshettyacademy.com/api/ecom/order/create-order',
-    {
-      data: orderPayload,
-      headers: {
-        Authorization: token,
-        'content-Type': 'application/json',
-      },
-    },
-  );
-  const orderResponseJson = await orderResponse.json();
-  console.log(orderResponseJson);
-  orderId = orderResponseJson.orders[0];
+  const apiContext: APIRequestContext = await request.newContext();
+  const apiUtils = new APIUtils(apiContext, loginPayload);
+  response = await apiUtils.createOrder(orderPayload);
 });
 
-test.beforeEach(({}) => {});
-
 test('Example 1', async ({ page }) => {
-  await page.addInitScript((value) => {
-    window.localStorage.setItem('token', value);
-  }, token);
+  await page.addInitScript((token) => {
+    window.localStorage.setItem('token', token);
+  }, response.token);
   await page.goto('https://rahulshettyacademy.com/client');
   await page.locator('.card-body b').first().waitFor();
   const cardTitles = page.locator('.card-body b');
@@ -56,10 +30,10 @@ test('Example 1', async ({ page }) => {
 });
 
 test('Example 2', async ({ page }) => {
-    await page.addInitScript((value) => {
-        window.localStorage.setItem('token', value);
-      }, token);
-      await page.goto('https://rahulshettyacademy.com/client');
+  await page.addInitScript((value) => {
+    window.localStorage.setItem('token', value);
+  }, response.token);
+  await page.goto('https://rahulshettyacademy.com/client');
   await page.locator('.card-body b').first().waitFor();
   await page.locator("button[routerlink*='myorders']").click();
   await page.locator('tbody').waitFor();
@@ -70,7 +44,7 @@ test('Example 2', async ({ page }) => {
       .locator('th')
       .textContent()) as string;
     console.log({ rowOrderId });
-    if (orderId.includes(rowOrderId)) {
+    if (response.orderId.includes(rowOrderId)) {
       await rows.nth(i).locator('button').first().click();
       break;
     }
@@ -78,5 +52,5 @@ test('Example 2', async ({ page }) => {
   const orderIdDetails = (await page
     .locator('.col-text')
     .textContent()) as string;
-  expect(orderId.includes(orderIdDetails)).toBeTruthy();
+  expect(response.orderId.includes(orderIdDetails)).toBeTruthy();
 });
