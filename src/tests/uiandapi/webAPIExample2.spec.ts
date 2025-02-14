@@ -1,25 +1,20 @@
 import { test, expect } from '@playwright/test';
+import { LoginPage } from '../../pom/loginPage';
 
 let webContext;
 
 test.beforeAll(async ({ browser }) => {
   const context = await browser.newContext();
   const page = await context.newPage();
-  await page.goto('https://rahulshettyacademy.com/client');
-  await page.locator('input[id="userEmail"]').fill('qaairbnb0@gmail.com');
-  await page.locator('input[id="userPassword"]').fill('Test1234?');
-  await page.getByRole('button', { name: 'Login' }).click();
-  await page.waitForURL('https://rahulshettyacademy.com/client/dashboard/dash');
-  expect(page.url()).toBe(
-    'https://rahulshettyacademy.com/client/dashboard/dash',
-  );
+  const loginPage = new LoginPage(page);
+  loginPage.goto('https://rahulshettyacademy.com/client');
+  loginPage.validLogin('qaairbnb0@gmail.com', 'Test1234?');
   await context.storageState({ path: 'state.json' });
   webContext = await browser.newContext({ storageState: 'state.json' });
 });
 
 test('Example 1', async () => {
   const page = await webContext.newPage();
-  await page.goto('https://rahulshettyacademy.com/client');
   await page.locator('.card-body b').first().waitFor();
   const cardTitles = page.locator('.card-body b');
   console.log(await cardTitles.nth(0).textContent());
@@ -29,7 +24,6 @@ test('Example 1', async () => {
 
 test('Example 2', async () => {
   const page = await webContext.newPage();
-  await page.goto('https://rahulshettyacademy.com/client');
   await page.locator('.card-body b').first().waitFor();
   await page
     .locator('.card-body')

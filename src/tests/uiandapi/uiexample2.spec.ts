@@ -1,14 +1,10 @@
 import { test, expect } from '@playwright/test';
+import { LoginPage } from '../../pom/loginPage';
 
 test.beforeEach('UI example login 2', async ({ page }) => {
-  await page.goto('https://rahulshettyacademy.com/client');
-  await page.locator('input[id="userEmail"]').fill('qaairbnb0@gmail.com');
-  await page.locator('input[id="userPassword"]').fill('Test1234?');
-  await page.getByRole('button', { name: 'Login' }).click();
-  await page.waitForURL('https://rahulshettyacademy.com/client/dashboard/dash');
-  expect(page.url()).toBe(
-    'https://rahulshettyacademy.com/client/dashboard/dash',
-  );
+  const loginPage = new LoginPage(page);
+  loginPage.goto('https://rahulshettyacademy.com/client');
+  loginPage.validLogin('qaairbnb0@gmail.com', 'Test1234?');
 });
 
 test('Example 1', async ({ page }) => {

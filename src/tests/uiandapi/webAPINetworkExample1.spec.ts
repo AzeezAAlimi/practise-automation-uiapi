@@ -1,4 +1,5 @@
 import { test, expect, request, APIRequestContext } from '@playwright/test';
+import { LoginPage } from '../../pom/loginPage';
 import { APIUtils } from '../../utilities/apiUtils';
 const loginPayload = {
   userEmail: 'qaairbnb0@gmail.com',
@@ -20,7 +21,8 @@ test('Example 1', async ({ page }) => {
   await page.addInitScript((value) => {
     window.localStorage.setItem('token', value);
   }, response.token);
-  await page.goto('https://rahulshettyacademy.com/client');
+  const loginPage = new LoginPage(page);
+  loginPage.goto('https://rahulshettyacademy.com/client');
   await page.route(
     'https://rahulshettyacademy.com/api/ecom/order/get-orders-for-customer/*',
     async (route) => {
