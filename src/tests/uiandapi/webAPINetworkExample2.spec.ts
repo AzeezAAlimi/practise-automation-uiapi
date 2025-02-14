@@ -8,7 +8,6 @@ test('Security test request intercept', async ({ page }) => {
   loginPage.validLogin('qaairbnb0@gmail.com', 'Test1234?');
   await page.locator('.card-body b').first().waitFor();
   await page.locator("button[routerlink*='myorders']").click();
-
   await page.route(
     'https://rahulshettyacademy.com/api/ecom/order/get-orders-details?id=*',
     (route) =>

@@ -1,7 +1,7 @@
-import { test, expect } from '@playwright/test';
+import { test, expect, BrowserContext } from '@playwright/test';
 import { LoginPage } from '../../pom/loginPage';
 
-let webContext;
+let webContext: BrowserContext;
 
 test.beforeAll(async ({ browser }) => {
   const context = await browser.newContext();

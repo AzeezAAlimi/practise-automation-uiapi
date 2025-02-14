@@ -27,5 +27,6 @@ export class LoginPage {
     expect(this.page.url()).toBe(
       'https://rahulshettyacademy.com/client/dashboard/dash',
     );
+    await this.page.locator('.card-body b').first().waitFor();
   }
 }
