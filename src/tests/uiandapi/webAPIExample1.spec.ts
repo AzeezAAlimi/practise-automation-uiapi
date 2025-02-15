@@ -1,9 +1,10 @@
 import { test, expect, request, APIRequestContext } from '@playwright/test';
 import { APIUtils } from '../../utilities/apiUtils';
+import data from '../../utilities/testData/placeOrderData.json';
 
 const loginPayload = {
-  userEmail: 'qaairbnb0@gmail.com',
-  userPassword: 'Test1234?',
+  userEmail: data.emailAddress,
+  userPassword: data.password,
 };
 const orderPayload = {
   orders: [{ country: 'Poland', productOrderedId: '67a8dde5c0d3e6622a297cc8' }],
