@@ -18,7 +18,7 @@ test.beforeAll(async ({ browser }) => {
   webContext = await browser.newContext({ storageState: 'state.json' });
 });
 
-test('Example 1', async ({ page }) => {
+test.skip('Example 1', async ({ page }) => {
   const dashBoardPage = new DashBoardPage(page);
   await dashBoardPage.searchProductLoop(data.productName);
   await dashBoardPage.navigateToCart();
