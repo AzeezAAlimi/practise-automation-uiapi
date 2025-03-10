@@ -1,1 +1,166 @@
-{"uuid":"81c43c42-f5b2-4430-abd6-9662e2e5576e","name":"PUT API Test - Update user - Successful","historyId":"0248bb790f2f352af022796213fca021:d41d8cd98f00b204e9800998ecf8427e","status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648625366,"name":"apiRequest.newContext","stop":1739648625367}],"attachments":[],"parameters":[],"start":1739648625365,"name":"fixture: request","stop":1739648625367}],"attachments":[],"parameters":[],"start":1739648625362,"name":"Before Hooks","stop":1739648625367},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648625369,"name":"apiRequestContext.put(https://reqres.in/api/users/2)","stop":1739648625503},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648625504,"name":"expect.toBe","stop":1739648625504},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648625504,"name":"apiResponse.text","stop":1739648625505},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648625506,"name":"expect.toBe","stop":1739648625506},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648625507,"name":"expect.toBe","stop":1739648625507},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648625507,"name":"expect.toBeTruthy","stop":1739648625508},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648625510,"name":"apiRequestContext.dispose","stop":1739648625510}],"attachments":[],"parameters":[],"start":1739648625508,"name":"fixture: request","stop":1739648625510}],"attachments":[],"parameters":[],"start":1739648625508,"name":"After Hooks","stop":1739648625511}],"attachments":[],"parameters":[],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"src.tests.api.reqres.putpatch.spec.ts"},{"name":"titlePath","value":" >  > src/tests/api/reqres/putpatch.spec.ts > PUT / PATCH API test"},{"name":"host","value":"Azeezs-MBP"},{"name":"thread","value":"pid-5848-worker-3"},{"name":"suite","value":"src/tests/api/reqres/putpatch.spec.ts"},{"name":"subSuite","value":"PUT / PATCH API test"}],"links":[],"start":1739648625363,"testCaseId":"0248bb790f2f352af022796213fca021","fullName":"src/tests/api/reqres/putpatch.spec.ts:5:7","stop":1739648625509}
+{
+  "uuid": "81c43c42-f5b2-4430-abd6-9662e2e5576e",
+  "name": "PUT API Test - Update user - Successful",
+  "historyId": "0248bb790f2f352af022796213fca021:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648625366,
+              "name": "apiRequest.newContext",
+              "stop": 1739648625367
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648625365,
+          "name": "fixture: request",
+          "stop": 1739648625367
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648625362,
+      "name": "Before Hooks",
+      "stop": 1739648625367
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648625369,
+      "name": "apiRequestContext.put(https://reqres.in/api/users/2)",
+      "stop": 1739648625503
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648625504,
+      "name": "expect.toBe",
+      "stop": 1739648625504
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648625504,
+      "name": "apiResponse.text",
+      "stop": 1739648625505
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648625506,
+      "name": "expect.toBe",
+      "stop": 1739648625506
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648625507,
+      "name": "expect.toBe",
+      "stop": 1739648625507
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648625507,
+      "name": "expect.toBeTruthy",
+      "stop": 1739648625508
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648625510,
+              "name": "apiRequestContext.dispose",
+              "stop": 1739648625510
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648625508,
+          "name": "fixture: request",
+          "stop": 1739648625510
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648625508,
+      "name": "After Hooks",
+      "stop": 1739648625511
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "src.tests.api.reqres.putpatch.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " >  > src/tests/api/reqres/putpatch.spec.ts > PUT / PATCH API test"
+    },
+    { "name": "host", "value": "Azeezs-MBP" },
+    { "name": "thread", "value": "pid-5848-worker-3" },
+    { "name": "suite", "value": "src/tests/api/reqres/putpatch.spec.ts" },
+    { "name": "subSuite", "value": "PUT / PATCH API test" }
+  ],
+  "links": [],
+  "start": 1739648625363,
+  "testCaseId": "0248bb790f2f352af022796213fca021",
+  "fullName": "src/tests/api/reqres/putpatch.spec.ts:5:7",
+  "stop": 1739648625509
+}

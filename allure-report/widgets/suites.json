@@ -1,1 +1,125 @@
-{"total":12,"items":[{"uid":"2456543c3a99f5ab4703254813a9942b","name":"src/tests/uiandapi/webAPINetworkExample1.spec.ts","statistic":{"failed":1,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":1}},{"uid":"395f6604ecc776dbb8b31d265bd6e672","name":"src/tests/api/reqres/post.spec.ts","statistic":{"failed":0,"broken":0,"skipped":0,"passed":5,"unknown":0,"total":5}},{"uid":"b341e20eae6df274860f798c0fed7297","name":"src/tests/api/reqres/get.spec.ts","statistic":{"failed":0,"broken":0,"skipped":0,"passed":3,"unknown":0,"total":3}},{"uid":"8bd4cd7a5662500c8e8104535f0dd47f","name":"src/tests/uiandapi/uiexample2.spec.ts","statistic":{"failed":0,"broken":0,"skipped":0,"passed":3,"unknown":0,"total":3}},{"uid":"74ce2a8b3102aacc2705a11ac06a1617","name":"src/tests/api/reqres/putpatch.spec.ts","statistic":{"failed":0,"broken":0,"skipped":0,"passed":2,"unknown":0,"total":2}},{"uid":"268c1a440faa0179337a766b7e567d8f","name":"src/tests/uiandapi/uiexample1.spec.ts","statistic":{"failed":0,"broken":0,"skipped":0,"passed":2,"unknown":0,"total":2}},{"uid":"4d63002f7bc8632dbd817825ef532b7e","name":"src/tests/uiandapi/webAPIExample1.spec.ts","statistic":{"failed":0,"broken":0,"skipped":0,"passed":2,"unknown":0,"total":2}},{"uid":"c22ae6ad626d4920877dab2f33bd0e8e","name":"src/tests/api/reqres/delete.spec.ts","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}},{"uid":"cda1fb85ab4e0e1c37910f6d89d24aab","name":"src/tests/uiandapi/uiexample3.spec.ts","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}},{"uid":"fb5afbb138b79d24b19f39ca470195bb","name":"src/tests/uiandapi/webAPINetworkExample2.spec.ts","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}
+{
+  "total": 12,
+  "items": [
+    {
+      "uid": "2456543c3a99f5ab4703254813a9942b",
+      "name": "src/tests/uiandapi/webAPINetworkExample1.spec.ts",
+      "statistic": {
+        "failed": 1,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 0,
+        "unknown": 0,
+        "total": 1
+      }
+    },
+    {
+      "uid": "395f6604ecc776dbb8b31d265bd6e672",
+      "name": "src/tests/api/reqres/post.spec.ts",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 5,
+        "unknown": 0,
+        "total": 5
+      }
+    },
+    {
+      "uid": "b341e20eae6df274860f798c0fed7297",
+      "name": "src/tests/api/reqres/get.spec.ts",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 3,
+        "unknown": 0,
+        "total": 3
+      }
+    },
+    {
+      "uid": "8bd4cd7a5662500c8e8104535f0dd47f",
+      "name": "src/tests/uiandapi/uiexample2.spec.ts",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 3,
+        "unknown": 0,
+        "total": 3
+      }
+    },
+    {
+      "uid": "74ce2a8b3102aacc2705a11ac06a1617",
+      "name": "src/tests/api/reqres/putpatch.spec.ts",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 2,
+        "unknown": 0,
+        "total": 2
+      }
+    },
+    {
+      "uid": "268c1a440faa0179337a766b7e567d8f",
+      "name": "src/tests/uiandapi/uiexample1.spec.ts",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 2,
+        "unknown": 0,
+        "total": 2
+      }
+    },
+    {
+      "uid": "4d63002f7bc8632dbd817825ef532b7e",
+      "name": "src/tests/uiandapi/webAPIExample1.spec.ts",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 2,
+        "unknown": 0,
+        "total": 2
+      }
+    },
+    {
+      "uid": "c22ae6ad626d4920877dab2f33bd0e8e",
+      "name": "src/tests/api/reqres/delete.spec.ts",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 1,
+        "unknown": 0,
+        "total": 1
+      }
+    },
+    {
+      "uid": "cda1fb85ab4e0e1c37910f6d89d24aab",
+      "name": "src/tests/uiandapi/uiexample3.spec.ts",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 1,
+        "unknown": 0,
+        "total": 1
+      }
+    },
+    {
+      "uid": "fb5afbb138b79d24b19f39ca470195bb",
+      "name": "src/tests/uiandapi/webAPINetworkExample2.spec.ts",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 1,
+        "unknown": 0,
+        "total": 1
+      }
+    }
+  ]
+}

@@ -1,1 +1,122 @@
-{"uuid":"707965a7-57e7-4d34-8f7f-781f574c90b0","name":"DELETE API Test - Delete user - Successful","historyId":"8603be78530be09a1e0b69431f220253:d41d8cd98f00b204e9800998ecf8427e","status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648624903,"name":"apiRequest.newContext","stop":1739648624944}],"attachments":[],"parameters":[],"start":1739648624900,"name":"fixture: request","stop":1739648624944}],"attachments":[],"parameters":[],"start":1739648624890,"name":"Before Hooks","stop":1739648624945},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648624947,"name":"apiRequestContext.delete(https://reqres.in/api/users/2)","stop":1739648625163},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648625169,"name":"expect.toBe","stop":1739648625170},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648625185,"name":"apiRequestContext.dispose","stop":1739648625202}],"attachments":[],"parameters":[],"start":1739648625172,"name":"fixture: request","stop":1739648625202}],"attachments":[],"parameters":[],"start":1739648625170,"name":"After Hooks","stop":1739648625205}],"attachments":[],"parameters":[],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"src.tests.api.reqres.delete.spec.ts"},{"name":"titlePath","value":" >  > src/tests/api/reqres/delete.spec.ts > DELETE API test"},{"name":"host","value":"Azeezs-MBP"},{"name":"thread","value":"pid-5848-worker-0"},{"name":"suite","value":"src/tests/api/reqres/delete.spec.ts"},{"name":"subSuite","value":"DELETE API test"}],"links":[],"start":1739648624896,"testCaseId":"8603be78530be09a1e0b69431f220253","fullName":"src/tests/api/reqres/delete.spec.ts:5:7","stop":1739648625203}
+{
+  "uuid": "707965a7-57e7-4d34-8f7f-781f574c90b0",
+  "name": "DELETE API Test - Delete user - Successful",
+  "historyId": "8603be78530be09a1e0b69431f220253:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648624903,
+              "name": "apiRequest.newContext",
+              "stop": 1739648624944
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648624900,
+          "name": "fixture: request",
+          "stop": 1739648624944
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648624890,
+      "name": "Before Hooks",
+      "stop": 1739648624945
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648624947,
+      "name": "apiRequestContext.delete(https://reqres.in/api/users/2)",
+      "stop": 1739648625163
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648625169,
+      "name": "expect.toBe",
+      "stop": 1739648625170
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648625185,
+              "name": "apiRequestContext.dispose",
+              "stop": 1739648625202
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648625172,
+          "name": "fixture: request",
+          "stop": 1739648625202
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648625170,
+      "name": "After Hooks",
+      "stop": 1739648625205
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "src.tests.api.reqres.delete.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " >  > src/tests/api/reqres/delete.spec.ts > DELETE API test"
+    },
+    { "name": "host", "value": "Azeezs-MBP" },
+    { "name": "thread", "value": "pid-5848-worker-0" },
+    { "name": "suite", "value": "src/tests/api/reqres/delete.spec.ts" },
+    { "name": "subSuite", "value": "DELETE API test" }
+  ],
+  "links": [],
+  "start": 1739648624896,
+  "testCaseId": "8603be78530be09a1e0b69431f220253",
+  "fullName": "src/tests/api/reqres/delete.spec.ts:5:7",
+  "stop": 1739648625203
+}

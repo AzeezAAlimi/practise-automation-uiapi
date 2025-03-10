@@ -1,1 +1,764 @@
-{"uid":"c638019e088636a5","name":"Example 2","fullName":"src/tests/uiandapi/uiexample2.spec.ts:20:5","historyId":"fec19c7242d6315688e1ad4fbce5abe1:d41d8cd98f00b204e9800998ecf8427e","time":{"start":1739648629119,"stop":1739648637469,"duration":8350},"status":"passed","flaky":false,"newFailed":false,"newBroken":false,"newPassed":false,"retriesCount":0,"retriesStatusChange":false,"beforeStages":[],"testStage":{"status":"passed","steps":[{"name":"Before Hooks","time":{"start":1739648629118,"stop":1739648633586,"duration":4468},"status":"passed","steps":[{"name":"UI example login 2","time":{"start":1739648629118,"stop":1739648633586,"duration":4468},"status":"passed","steps":[{"name":"fixture: context","time":{"start":1739648629122,"stop":1739648629127,"duration":5},"status":"passed","steps":[{"name":"browser.newContext","time":{"start":1739648629123,"stop":1739648629127,"duration":4},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false}],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":1,"attachmentsCount":0,"hasContent":true,"attachmentStep":false},{"name":"fixture: page","time":{"start":1739648629128,"stop":1739648629217,"duration":89},"status":"passed","steps":[{"name":"browserContext.newPage","time":{"start":1739648629132,"stop":1739648629217,"duration":85},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false}],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":1,"attachmentsCount":0,"hasContent":true,"attachmentStep":false},{"name":"page.goto(https://rahulshettyacademy.com/client)","time":{"start":1739648629219,"stop":1739648632869,"duration":3650},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.fill(input[id=\"userEmail\"])","time":{"start":1739648632874,"stop":1739648632931,"duration":57},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.fill(input[id=\"userPassword\"])","time":{"start":1739648632933,"stop":1739648633000,"duration":67},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.getByRole('button', { name: 'Login' }).click","time":{"start":1739648633001,"stop":1739648633051,"duration":50},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"page.waitForURL","time":{"start":1739648633053,"stop":1739648633332,"duration":279},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toBe","time":{"start":1739648633334,"stop":1739648633335,"duration":1},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.waitFor(.card-body b >> nth=0)","time":{"start":1739648633336,"stop":1739648633586,"duration":250},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false}],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":11,"attachmentsCount":0,"hasContent":true,"attachmentStep":false}],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":12,"attachmentsCount":0,"hasContent":true,"attachmentStep":false},{"name":"locator.click(.card-body >> internal:has-text=\"ZARA COAT 3\"i >> internal:role=button[name=\"Add to Cart\"i])","time":{"start":1739648633587,"stop":1739648633625,"duration":38},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.getByRole('listitem').getByRole('button', { name: 'Cart' }).click","time":{"start":1739648633628,"stop":1739648635149,"duration":1521},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"page.waitForURL","time":{"start":1739648635150,"stop":1739648635151,"duration":1},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toBe","time":{"start":1739648635151,"stop":1739648635152,"duration":1},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.getByRole('button', { name: 'Checkout' }).click","time":{"start":1739648635154,"stop":1739648635422,"duration":268},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.fill([class=\"input txt text-validated\"] >> nth=0)","time":{"start":1739648635425,"stop":1739648635434,"duration":9},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toHaveValue","time":{"start":1739648635435,"stop":1739648635488,"duration":53},"status":"passed","steps":[{"name":"locator.click([class=\"input ddl\"] >> nth=0)","time":{"start":1739648635439,"stop":1739648635447,"duration":8},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false}],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":1,"attachmentsCount":0,"hasContent":true,"attachmentStep":false},{"name":"locator.selectOption([class=\"input ddl\"] >> nth=0)","time":{"start":1739648635494,"stop":1739648635503,"duration":9},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.click([class=\"input ddl\"] >> nth=1)","time":{"start":1739648635504,"stop":1739648635541,"duration":37},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.selectOption([class=\"input ddl\"] >> nth=1)","time":{"start":1739648635542,"stop":1739648635551,"duration":9},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.fill([class=\"input txt\"] >> nth=0)","time":{"start":1739648635552,"stop":1739648635559,"duration":7},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.fill([class=\"input txt\"] >> nth=1)","time":{"start":1739648635560,"stop":1739648635574,"duration":14},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.getByPlaceholder('Select Country').pressSequentially(Poland)","time":{"start":1739648635575,"stop":1739648635604,"duration":29},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.click([class=\"ta-results list-group ng-star-inserted\"] >> nth=0)","time":{"start":1739648635605,"stop":1739648636443,"duration":838},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.getByText('PLACE ORDER').click","time":{"start":1739648636445,"stop":1739648636484,"duration":39},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toBeVisible","time":{"start":1739648636485,"stop":1739648636861,"duration":376},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.textContent(.em-spacer-1 .ng-star-inserted)","time":{"start":1739648636861,"stop":1739648636865,"duration":4},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.click(button[routerlink*='myorders'])","time":{"start":1739648636866,"stop":1739648636917,"duration":51},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.waitFor(tbody)","time":{"start":1739648636918,"stop":1739648637210,"duration":292},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.count(tbody tr)","time":{"start":1739648637212,"stop":1739648637215,"duration":3},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.textContent(tbody tr >> nth=0 >> th)","time":{"start":1739648637216,"stop":1739648637220,"duration":4},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.click(tbody tr >> nth=0 >> button >> nth=0)","time":{"start":1739648637222,"stop":1739648637271,"duration":49},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.textContent(.col-text)","time":{"start":1739648637272,"stop":1739648637454,"duration":182},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toBeTruthy","time":{"start":1739648637455,"stop":1739648637456,"duration":1},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"After Hooks","time":{"start":1739648637456,"stop":1739648637474,"duration":18},"status":"passed","steps":[{"name":"fixture: page","time":{"start":1739648637457,"stop":1739648637457,"duration":0},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"fixture: context","time":{"start":1739648637458,"stop":1739648637458,"duration":0},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false}],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":2,"attachmentsCount":0,"hasContent":true,"attachmentStep":false}],"attachments":[{"uid":"601afd9adb9c5faf","name":"stdout","source":"601afd9adb9c5faf.txt","type":"text/plain","size":74}],"parameters":[],"shouldDisplayMessage":false,"stepsCount":41,"attachmentsCount":1,"hasContent":true,"attachmentStep":false},"afterStages":[],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"src.tests.uiandapi.uiexample2.spec.ts"},{"name":"titlePath","value":" >  > src/tests/uiandapi/uiexample2.spec.ts"},{"name":"host","value":"Azeezs-MBP"},{"name":"thread","value":"pid-5848-worker-1"},{"name":"suite","value":"src/tests/uiandapi/uiexample2.spec.ts"},{"name":"resultFormat","value":"allure2"}],"parameters":[],"links":[],"hidden":false,"retry":false,"extra":{"severity":"normal","retries":[],"categories":[],"tags":[]},"source":"c638019e088636a5.json","parameterValues":[]}
+{
+  "uid": "c638019e088636a5",
+  "name": "Example 2",
+  "fullName": "src/tests/uiandapi/uiexample2.spec.ts:20:5",
+  "historyId": "fec19c7242d6315688e1ad4fbce5abe1:d41d8cd98f00b204e9800998ecf8427e",
+  "time": { "start": 1739648629119, "stop": 1739648637469, "duration": 8350 },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "testStage": {
+    "status": "passed",
+    "steps": [
+      {
+        "name": "Before Hooks",
+        "time": {
+          "start": 1739648629118,
+          "stop": 1739648633586,
+          "duration": 4468
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "UI example login 2",
+            "time": {
+              "start": 1739648629118,
+              "stop": 1739648633586,
+              "duration": 4468
+            },
+            "status": "passed",
+            "steps": [
+              {
+                "name": "fixture: context",
+                "time": {
+                  "start": 1739648629122,
+                  "stop": 1739648629127,
+                  "duration": 5
+                },
+                "status": "passed",
+                "steps": [
+                  {
+                    "name": "browser.newContext",
+                    "time": {
+                      "start": 1739648629123,
+                      "stop": 1739648629127,
+                      "duration": 4
+                    },
+                    "status": "passed",
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": [],
+                    "shouldDisplayMessage": false,
+                    "stepsCount": 0,
+                    "attachmentsCount": 0,
+                    "hasContent": false,
+                    "attachmentStep": false
+                  }
+                ],
+                "attachments": [],
+                "parameters": [],
+                "shouldDisplayMessage": false,
+                "stepsCount": 1,
+                "attachmentsCount": 0,
+                "hasContent": true,
+                "attachmentStep": false
+              },
+              {
+                "name": "fixture: page",
+                "time": {
+                  "start": 1739648629128,
+                  "stop": 1739648629217,
+                  "duration": 89
+                },
+                "status": "passed",
+                "steps": [
+                  {
+                    "name": "browserContext.newPage",
+                    "time": {
+                      "start": 1739648629132,
+                      "stop": 1739648629217,
+                      "duration": 85
+                    },
+                    "status": "passed",
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": [],
+                    "shouldDisplayMessage": false,
+                    "stepsCount": 0,
+                    "attachmentsCount": 0,
+                    "hasContent": false,
+                    "attachmentStep": false
+                  }
+                ],
+                "attachments": [],
+                "parameters": [],
+                "shouldDisplayMessage": false,
+                "stepsCount": 1,
+                "attachmentsCount": 0,
+                "hasContent": true,
+                "attachmentStep": false
+              },
+              {
+                "name": "page.goto(https://rahulshettyacademy.com/client)",
+                "time": {
+                  "start": 1739648629219,
+                  "stop": 1739648632869,
+                  "duration": 3650
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "hasContent": false,
+                "attachmentStep": false
+              },
+              {
+                "name": "locator.fill(input[id=\"userEmail\"])",
+                "time": {
+                  "start": 1739648632874,
+                  "stop": 1739648632931,
+                  "duration": 57
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "hasContent": false,
+                "attachmentStep": false
+              },
+              {
+                "name": "locator.fill(input[id=\"userPassword\"])",
+                "time": {
+                  "start": 1739648632933,
+                  "stop": 1739648633000,
+                  "duration": 67
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "hasContent": false,
+                "attachmentStep": false
+              },
+              {
+                "name": "locator.getByRole('button', { name: 'Login' }).click",
+                "time": {
+                  "start": 1739648633001,
+                  "stop": 1739648633051,
+                  "duration": 50
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "hasContent": false,
+                "attachmentStep": false
+              },
+              {
+                "name": "page.waitForURL",
+                "time": {
+                  "start": 1739648633053,
+                  "stop": 1739648633332,
+                  "duration": 279
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "hasContent": false,
+                "attachmentStep": false
+              },
+              {
+                "name": "expect.toBe",
+                "time": {
+                  "start": 1739648633334,
+                  "stop": 1739648633335,
+                  "duration": 1
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "hasContent": false,
+                "attachmentStep": false
+              },
+              {
+                "name": "locator.waitFor(.card-body b >> nth=0)",
+                "time": {
+                  "start": 1739648633336,
+                  "stop": 1739648633586,
+                  "duration": 250
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "hasContent": false,
+                "attachmentStep": false
+              }
+            ],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 11,
+            "attachmentsCount": 0,
+            "hasContent": true,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 12,
+        "attachmentsCount": 0,
+        "hasContent": true,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.click(.card-body >> internal:has-text=\"ZARA COAT 3\"i >> internal:role=button[name=\"Add to Cart\"i])",
+        "time": {
+          "start": 1739648633587,
+          "stop": 1739648633625,
+          "duration": 38
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.getByRole('listitem').getByRole('button', { name: 'Cart' }).click",
+        "time": {
+          "start": 1739648633628,
+          "stop": 1739648635149,
+          "duration": 1521
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "page.waitForURL",
+        "time": {
+          "start": 1739648635150,
+          "stop": 1739648635151,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toBe",
+        "time": {
+          "start": 1739648635151,
+          "stop": 1739648635152,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.getByRole('button', { name: 'Checkout' }).click",
+        "time": {
+          "start": 1739648635154,
+          "stop": 1739648635422,
+          "duration": 268
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.fill([class=\"input txt text-validated\"] >> nth=0)",
+        "time": {
+          "start": 1739648635425,
+          "stop": 1739648635434,
+          "duration": 9
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toHaveValue",
+        "time": {
+          "start": 1739648635435,
+          "stop": 1739648635488,
+          "duration": 53
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "locator.click([class=\"input ddl\"] >> nth=0)",
+            "time": {
+              "start": 1739648635439,
+              "stop": 1739648635447,
+              "duration": 8
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 1,
+        "attachmentsCount": 0,
+        "hasContent": true,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.selectOption([class=\"input ddl\"] >> nth=0)",
+        "time": {
+          "start": 1739648635494,
+          "stop": 1739648635503,
+          "duration": 9
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.click([class=\"input ddl\"] >> nth=1)",
+        "time": {
+          "start": 1739648635504,
+          "stop": 1739648635541,
+          "duration": 37
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.selectOption([class=\"input ddl\"] >> nth=1)",
+        "time": {
+          "start": 1739648635542,
+          "stop": 1739648635551,
+          "duration": 9
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.fill([class=\"input txt\"] >> nth=0)",
+        "time": {
+          "start": 1739648635552,
+          "stop": 1739648635559,
+          "duration": 7
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.fill([class=\"input txt\"] >> nth=1)",
+        "time": {
+          "start": 1739648635560,
+          "stop": 1739648635574,
+          "duration": 14
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.getByPlaceholder('Select Country').pressSequentially(Poland)",
+        "time": {
+          "start": 1739648635575,
+          "stop": 1739648635604,
+          "duration": 29
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.click([class=\"ta-results list-group ng-star-inserted\"] >> nth=0)",
+        "time": {
+          "start": 1739648635605,
+          "stop": 1739648636443,
+          "duration": 838
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.getByText('PLACE ORDER').click",
+        "time": {
+          "start": 1739648636445,
+          "stop": 1739648636484,
+          "duration": 39
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toBeVisible",
+        "time": {
+          "start": 1739648636485,
+          "stop": 1739648636861,
+          "duration": 376
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.textContent(.em-spacer-1 .ng-star-inserted)",
+        "time": {
+          "start": 1739648636861,
+          "stop": 1739648636865,
+          "duration": 4
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.click(button[routerlink*='myorders'])",
+        "time": {
+          "start": 1739648636866,
+          "stop": 1739648636917,
+          "duration": 51
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.waitFor(tbody)",
+        "time": {
+          "start": 1739648636918,
+          "stop": 1739648637210,
+          "duration": 292
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.count(tbody tr)",
+        "time": {
+          "start": 1739648637212,
+          "stop": 1739648637215,
+          "duration": 3
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.textContent(tbody tr >> nth=0 >> th)",
+        "time": {
+          "start": 1739648637216,
+          "stop": 1739648637220,
+          "duration": 4
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.click(tbody tr >> nth=0 >> button >> nth=0)",
+        "time": {
+          "start": 1739648637222,
+          "stop": 1739648637271,
+          "duration": 49
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.textContent(.col-text)",
+        "time": {
+          "start": 1739648637272,
+          "stop": 1739648637454,
+          "duration": 182
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toBeTruthy",
+        "time": {
+          "start": 1739648637455,
+          "stop": 1739648637456,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "After Hooks",
+        "time": {
+          "start": 1739648637456,
+          "stop": 1739648637474,
+          "duration": 18
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "fixture: page",
+            "time": {
+              "start": 1739648637457,
+              "stop": 1739648637457,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          },
+          {
+            "name": "fixture: context",
+            "time": {
+              "start": 1739648637458,
+              "stop": 1739648637458,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 2,
+        "attachmentsCount": 0,
+        "hasContent": true,
+        "attachmentStep": false
+      }
+    ],
+    "attachments": [
+      {
+        "uid": "601afd9adb9c5faf",
+        "name": "stdout",
+        "source": "601afd9adb9c5faf.txt",
+        "type": "text/plain",
+        "size": 74
+      }
+    ],
+    "parameters": [],
+    "shouldDisplayMessage": false,
+    "stepsCount": 41,
+    "attachmentsCount": 1,
+    "hasContent": true,
+    "attachmentStep": false
+  },
+  "afterStages": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "src.tests.uiandapi.uiexample2.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " >  > src/tests/uiandapi/uiexample2.spec.ts"
+    },
+    { "name": "host", "value": "Azeezs-MBP" },
+    { "name": "thread", "value": "pid-5848-worker-1" },
+    { "name": "suite", "value": "src/tests/uiandapi/uiexample2.spec.ts" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "c638019e088636a5.json",
+  "parameterValues": []
+}

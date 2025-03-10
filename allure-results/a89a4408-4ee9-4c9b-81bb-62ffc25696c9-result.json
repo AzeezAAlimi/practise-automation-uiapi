@@ -1,1 +1,177 @@
-{"uuid":"a89a4408-4ee9-4c9b-81bb-62ffc25696c9","name":"POST API Test - Create new user - Successful","historyId":"6b135d5f8e6e7eb01204afb232312c56:d41d8cd98f00b204e9800998ecf8427e","status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648625174,"name":"apiRequest.newContext","stop":1739648625188}],"attachments":[],"parameters":[],"start":1739648625173,"name":"fixture: request","stop":1739648625188}],"attachments":[],"parameters":[],"start":1739648625169,"name":"Before Hooks","stop":1739648625188},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648625190,"name":"apiRequestContext.post(https://reqres.in/api/users)","stop":1739648625287},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648625289,"name":"expect.toBe","stop":1739648625290},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648625291,"name":"apiResponse.text","stop":1739648625296},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648625297,"name":"expect.toBe","stop":1739648625297},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648625298,"name":"expect.toBe","stop":1739648625298},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648625299,"name":"expect.toBe","stop":1739648625299},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648625299,"name":"expect.toBeTruthy","stop":1739648625300},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648625301,"name":"apiRequestContext.dispose","stop":1739648625302}],"attachments":[],"parameters":[],"start":1739648625300,"name":"fixture: request","stop":1739648625302}],"attachments":[],"parameters":[],"start":1739648625300,"name":"After Hooks","stop":1739648625304}],"attachments":[],"parameters":[],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"src.tests.api.reqres.post.spec.ts"},{"name":"titlePath","value":" >  > src/tests/api/reqres/post.spec.ts > POST API test"},{"name":"host","value":"Azeezs-MBP"},{"name":"thread","value":"pid-5848-worker-1"},{"name":"suite","value":"src/tests/api/reqres/post.spec.ts"},{"name":"subSuite","value":"POST API test"}],"links":[],"start":1739648625168,"testCaseId":"6b135d5f8e6e7eb01204afb232312c56","fullName":"src/tests/api/reqres/post.spec.ts:5:7","stop":1739648625299}
+{
+  "uuid": "a89a4408-4ee9-4c9b-81bb-62ffc25696c9",
+  "name": "POST API Test - Create new user - Successful",
+  "historyId": "6b135d5f8e6e7eb01204afb232312c56:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648625174,
+              "name": "apiRequest.newContext",
+              "stop": 1739648625188
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648625173,
+          "name": "fixture: request",
+          "stop": 1739648625188
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648625169,
+      "name": "Before Hooks",
+      "stop": 1739648625188
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648625190,
+      "name": "apiRequestContext.post(https://reqres.in/api/users)",
+      "stop": 1739648625287
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648625289,
+      "name": "expect.toBe",
+      "stop": 1739648625290
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648625291,
+      "name": "apiResponse.text",
+      "stop": 1739648625296
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648625297,
+      "name": "expect.toBe",
+      "stop": 1739648625297
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648625298,
+      "name": "expect.toBe",
+      "stop": 1739648625298
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648625299,
+      "name": "expect.toBe",
+      "stop": 1739648625299
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648625299,
+      "name": "expect.toBeTruthy",
+      "stop": 1739648625300
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648625301,
+              "name": "apiRequestContext.dispose",
+              "stop": 1739648625302
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648625300,
+          "name": "fixture: request",
+          "stop": 1739648625302
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648625300,
+      "name": "After Hooks",
+      "stop": 1739648625304
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "src.tests.api.reqres.post.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " >  > src/tests/api/reqres/post.spec.ts > POST API test"
+    },
+    { "name": "host", "value": "Azeezs-MBP" },
+    { "name": "thread", "value": "pid-5848-worker-1" },
+    { "name": "suite", "value": "src/tests/api/reqres/post.spec.ts" },
+    { "name": "subSuite", "value": "POST API test" }
+  ],
+  "links": [],
+  "start": 1739648625168,
+  "testCaseId": "6b135d5f8e6e7eb01204afb232312c56",
+  "fullName": "src/tests/api/reqres/post.spec.ts:5:7",
+  "stop": 1739648625299
+}

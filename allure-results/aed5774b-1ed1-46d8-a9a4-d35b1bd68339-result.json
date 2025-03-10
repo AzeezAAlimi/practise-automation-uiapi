@@ -1,1 +1,284 @@
-{"uuid":"aed5774b-1ed1-46d8-a9a4-d35b1bd68339","name":"Security test request intercept","historyId":"5a02d458926d9c41cfc49dc552712fce:d41d8cd98f00b204e9800998ecf8427e","status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648632888,"name":"browserType.launch","stop":1739648633127}],"attachments":[],"parameters":[],"start":1739648632881,"name":"fixture: browser","stop":1739648633128},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648633133,"name":"browser.newContext","stop":1739648633144}],"attachments":[],"parameters":[],"start":1739648633130,"name":"fixture: context","stop":1739648633148},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648633152,"name":"browserContext.newPage","stop":1739648633320}],"attachments":[],"parameters":[],"start":1739648633149,"name":"fixture: page","stop":1739648633320}],"attachments":[],"parameters":[],"start":1739648632861,"name":"Before Hooks","stop":1739648633320},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648633332,"name":"locator.waitFor(.card-body b >> nth=0)","stop":1739648637788}],"attachments":[],"parameters":[],"start":1739648633328,"name":"locator.fill(input[id=\"userEmail\"])","stop":1739648637916},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648637918,"name":"locator.fill(input[id=\"userPassword\"])","stop":1739648637986},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648637987,"name":"locator.getByRole('button', { name: 'Login' }).click","stop":1739648638049},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648638051,"name":"page.waitForURL","stop":1739648638285},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648638287,"name":"expect.toBe","stop":1739648638288},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648638288,"name":"locator.waitFor(.card-body b >> nth=0)","stop":1739648638531}],"attachments":[],"parameters":[],"start":1739648633325,"name":"page.goto(https://rahulshettyacademy.com/client)","stop":1739648638886},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648638896,"name":"locator.click(button[routerlink*='myorders'])","stop":1739648638952},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648638954,"name":"page.route","stop":1739648638956},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648638959,"name":"locator.getByRole('button', { name: 'View' }).first().click","stop":1739648639188},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648639191,"name":"page.pause","stop":1739648639192},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648639193,"name":"fixture: page","stop":1739648639194},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648639194,"name":"fixture: context","stop":1739648639194}],"attachments":[],"parameters":[],"start":1739648639193,"name":"After Hooks","stop":1739648639205}],"attachments":[],"parameters":[],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"src.tests.uiandapi.webAPINetworkExample2.spec.ts"},{"name":"titlePath","value":" >  > src/tests/uiandapi/webAPINetworkExample2.spec.ts"},{"name":"host","value":"Azeezs-MBP"},{"name":"thread","value":"pid-5848-worker-0"},{"name":"suite","value":"src/tests/uiandapi/webAPINetworkExample2.spec.ts"}],"links":[],"start":1739648632859,"testCaseId":"5a02d458926d9c41cfc49dc552712fce","fullName":"src/tests/uiandapi/webAPINetworkExample2.spec.ts:5:5","stop":1739648638946}
+{
+  "uuid": "aed5774b-1ed1-46d8-a9a4-d35b1bd68339",
+  "name": "Security test request intercept",
+  "historyId": "5a02d458926d9c41cfc49dc552712fce:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648632888,
+              "name": "browserType.launch",
+              "stop": 1739648633127
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648632881,
+          "name": "fixture: browser",
+          "stop": 1739648633128
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648633133,
+              "name": "browser.newContext",
+              "stop": 1739648633144
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648633130,
+          "name": "fixture: context",
+          "stop": 1739648633148
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648633152,
+              "name": "browserContext.newPage",
+              "stop": 1739648633320
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648633149,
+          "name": "fixture: page",
+          "stop": 1739648633320
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648632861,
+      "name": "Before Hooks",
+      "stop": 1739648633320
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648633332,
+              "name": "locator.waitFor(.card-body b >> nth=0)",
+              "stop": 1739648637788
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648633328,
+          "name": "locator.fill(input[id=\"userEmail\"])",
+          "stop": 1739648637916
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648637918,
+          "name": "locator.fill(input[id=\"userPassword\"])",
+          "stop": 1739648637986
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648637987,
+          "name": "locator.getByRole('button', { name: 'Login' }).click",
+          "stop": 1739648638049
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648638051,
+          "name": "page.waitForURL",
+          "stop": 1739648638285
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648638287,
+          "name": "expect.toBe",
+          "stop": 1739648638288
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648638288,
+          "name": "locator.waitFor(.card-body b >> nth=0)",
+          "stop": 1739648638531
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648633325,
+      "name": "page.goto(https://rahulshettyacademy.com/client)",
+      "stop": 1739648638886
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648638896,
+      "name": "locator.click(button[routerlink*='myorders'])",
+      "stop": 1739648638952
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648638954,
+      "name": "page.route",
+      "stop": 1739648638956
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648638959,
+      "name": "locator.getByRole('button', { name: 'View' }).first().click",
+      "stop": 1739648639188
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648639191,
+      "name": "page.pause",
+      "stop": 1739648639192
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648639193,
+          "name": "fixture: page",
+          "stop": 1739648639194
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648639194,
+          "name": "fixture: context",
+          "stop": 1739648639194
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648639193,
+      "name": "After Hooks",
+      "stop": 1739648639205
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    {
+      "name": "package",
+      "value": "src.tests.uiandapi.webAPINetworkExample2.spec.ts"
+    },
+    {
+      "name": "titlePath",
+      "value": " >  > src/tests/uiandapi/webAPINetworkExample2.spec.ts"
+    },
+    { "name": "host", "value": "Azeezs-MBP" },
+    { "name": "thread", "value": "pid-5848-worker-0" },
+    {
+      "name": "suite",
+      "value": "src/tests/uiandapi/webAPINetworkExample2.spec.ts"
+    }
+  ],
+  "links": [],
+  "start": 1739648632859,
+  "testCaseId": "5a02d458926d9c41cfc49dc552712fce",
+  "fullName": "src/tests/uiandapi/webAPINetworkExample2.spec.ts:5:5",
+  "stop": 1739648638946
+}

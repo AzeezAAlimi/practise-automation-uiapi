@@ -1,1 +1,122 @@
-{"uuid":"a0d3aabe-0b17-47c5-8a03-21d3974d12fe","name":"GET API Test - Assert invalid endpoint","historyId":"c5721458cb4f43fde1877acbb31d0c60:d41d8cd98f00b204e9800998ecf8427e","status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648624907,"name":"apiRequest.newContext","stop":1739648624943}],"attachments":[],"parameters":[],"start":1739648624905,"name":"fixture: request","stop":1739648624943}],"attachments":[],"parameters":[],"start":1739648624893,"name":"Before Hooks","stop":1739648624944},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648624946,"name":"apiRequestContext.get(https://reqres.in/api/users/abbbb)","stop":1739648625174},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648625190,"name":"expect.toBe","stop":1739648625191},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648625198,"name":"apiRequestContext.dispose","stop":1739648625219}],"attachments":[],"parameters":[],"start":1739648625195,"name":"fixture: request","stop":1739648625219}],"attachments":[],"parameters":[],"start":1739648625192,"name":"After Hooks","stop":1739648625222}],"attachments":[],"parameters":[],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"src.tests.api.reqres.get.spec.ts"},{"name":"titlePath","value":" >  > src/tests/api/reqres/get.spec.ts > GET API test"},{"name":"host","value":"Azeezs-MBP"},{"name":"thread","value":"pid-5848-worker-2"},{"name":"suite","value":"src/tests/api/reqres/get.spec.ts"},{"name":"subSuite","value":"GET API test"}],"links":[],"start":1739648624898,"testCaseId":"c5721458cb4f43fde1877acbb31d0c60","fullName":"src/tests/api/reqres/get.spec.ts:12:7","stop":1739648625218}
+{
+  "uuid": "a0d3aabe-0b17-47c5-8a03-21d3974d12fe",
+  "name": "GET API Test - Assert invalid endpoint",
+  "historyId": "c5721458cb4f43fde1877acbb31d0c60:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648624907,
+              "name": "apiRequest.newContext",
+              "stop": 1739648624943
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648624905,
+          "name": "fixture: request",
+          "stop": 1739648624943
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648624893,
+      "name": "Before Hooks",
+      "stop": 1739648624944
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648624946,
+      "name": "apiRequestContext.get(https://reqres.in/api/users/abbbb)",
+      "stop": 1739648625174
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648625190,
+      "name": "expect.toBe",
+      "stop": 1739648625191
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648625198,
+              "name": "apiRequestContext.dispose",
+              "stop": 1739648625219
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648625195,
+          "name": "fixture: request",
+          "stop": 1739648625219
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648625192,
+      "name": "After Hooks",
+      "stop": 1739648625222
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "src.tests.api.reqres.get.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " >  > src/tests/api/reqres/get.spec.ts > GET API test"
+    },
+    { "name": "host", "value": "Azeezs-MBP" },
+    { "name": "thread", "value": "pid-5848-worker-2" },
+    { "name": "suite", "value": "src/tests/api/reqres/get.spec.ts" },
+    { "name": "subSuite", "value": "GET API test" }
+  ],
+  "links": [],
+  "start": 1739648624898,
+  "testCaseId": "c5721458cb4f43fde1877acbb31d0c60",
+  "fullName": "src/tests/api/reqres/get.spec.ts:12:7",
+  "stop": 1739648625218
+}

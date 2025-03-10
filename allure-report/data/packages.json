@@ -1,1 +1,533 @@
-{"uid":"83edc06c07f9ae9e47eb6dd1b683e4e2","name":"packages","children":[{"name":"src.tests","children":[{"name":"api.reqres","children":[{"name":"delete.spec.ts","children":[{"name":"DELETE API Test - Delete user - Successful","uid":"6168dba0ec47a0b1","parentUid":"fb8b51d0911c7bdf8f66bbd30debc320","status":"passed","time":{"start":1739648624896,"stop":1739648625203,"duration":307},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"delete.spec.ts"},{"name":"get.spec.ts","children":[{"name":"GET API Test - Assert invalid endpoint","uid":"ba56159eb4717cbb","parentUid":"4a8f4d0418d35843e2cca1e17a74e417","status":"passed","time":{"start":1739648624898,"stop":1739648625218,"duration":320},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"GET API Test - Get user detail","uid":"84473e34809796a4","parentUid":"4a8f4d0418d35843e2cca1e17a74e417","status":"passed","time":{"start":1739648624898,"stop":1739648625159,"duration":261},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"GET API Test - Assert response status","uid":"1535d2dd25f0373e","parentUid":"4a8f4d0418d35843e2cca1e17a74e417","status":"passed","time":{"start":1739648624899,"stop":1739648625148,"duration":249},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"get.spec.ts"},{"name":"post.spec.ts","children":[{"name":"POST API Test - Create new user - Successful","uid":"b29cdc167b550cf1","parentUid":"7e8617a5f898912ebd4dfdecd2602647","status":"passed","time":{"start":1739648625168,"stop":1739648625299,"duration":131},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"POST API Test - Register new user - Successful","uid":"63193f8d0ef161bc","parentUid":"7e8617a5f898912ebd4dfdecd2602647","status":"passed","time":{"start":1739648625169,"stop":1739648625332,"duration":163},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"POST API Test - Register new user - Unsuccessful","uid":"7a2070c70e194a08","parentUid":"7e8617a5f898912ebd4dfdecd2602647","status":"passed","time":{"start":1739648625227,"stop":1739648625322,"duration":95},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"POST API Test - Register login - Successful","uid":"45fbc91583650583","parentUid":"7e8617a5f898912ebd4dfdecd2602647","status":"passed","time":{"start":1739648625270,"stop":1739648625390,"duration":120},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"POST API Test - Register login - Unsuccessful","uid":"e0d062aca80042ec","parentUid":"7e8617a5f898912ebd4dfdecd2602647","status":"passed","time":{"start":1739648625308,"stop":1739648625398,"duration":90},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"post.spec.ts"},{"name":"putpatch.spec.ts","children":[{"name":"PUT API Test - Update user - Successful","uid":"e7743be169946791","parentUid":"1a2d69d515d31f686c6d6b3855962d3e","status":"passed","time":{"start":1739648625363,"stop":1739648625509,"duration":146},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"PATCH API Test - Update user - Successful","uid":"ab049efcffc8ce80","parentUid":"1a2d69d515d31f686c6d6b3855962d3e","status":"passed","time":{"start":1739648625366,"stop":1739648625467,"duration":101},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"putpatch.spec.ts"}],"uid":"api.reqres"},{"name":"uiandapi","children":[{"name":"uiexample1.spec.ts","children":[{"name":"Example 1","uid":"9836d349c05470f8","parentUid":"09f845384528394d280822f60ee9ff45","status":"passed","time":{"start":1739648625399,"stop":1739648631482,"duration":6083},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Example 2","uid":"39feb99ff0133315","parentUid":"09f845384528394d280822f60ee9ff45","status":"passed","time":{"start":1739648631892,"stop":1739648636087,"duration":4195},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"uiexample1.spec.ts"},{"name":"uiexample2.spec.ts","children":[{"name":"Example 1","uid":"a86ff3bba2e01b32","parentUid":"fb2fd382bd352b6f6715938869b696e3","status":"passed","time":{"start":1739648625411,"stop":1739648628694,"duration":3283},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Example 2","uid":"c638019e088636a5","parentUid":"fb2fd382bd352b6f6715938869b696e3","status":"passed","time":{"start":1739648629119,"stop":1739648637469,"duration":8350},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Example 3","uid":"bcdf26949aba9b54","parentUid":"fb2fd382bd352b6f6715938869b696e3","status":"passed","time":{"start":1739648637479,"stop":1739648644609,"duration":7130},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"uiexample2.spec.ts"},{"name":"uiexample3.spec.ts","children":[{"name":"Example 1","uid":"64b4b87d4bb226dd","parentUid":"fab284d3cf954484b7e0f0a1c34d2014","status":"passed","time":{"start":1739648625473,"stop":1739648627731,"duration":2258},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"uiexample3.spec.ts"},{"name":"webAPIExample1.spec.ts","children":[{"name":"Example 1","uid":"bbc63e24338e9052","parentUid":"299811a8876fc3569f448aa3708e2adb","status":"passed","time":{"start":1739648625516,"stop":1739648629293,"duration":3777},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Example 2","uid":"1aa10d184f9fbf09","parentUid":"299811a8876fc3569f448aa3708e2adb","status":"passed","time":{"start":1739648630512,"stop":1739648633757,"duration":3245},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"webAPIExample1.spec.ts"},{"name":"webAPIExample2.spec.ts","children":[{"name":"Example 1","uid":"6647027f1d854d5c","parentUid":"5ae7f334e16b0c5f7388a816d790e2f2","status":"skipped","time":{"start":1739648628059,"stop":1739648628060,"duration":1},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"webAPIExample2.spec.ts"},{"name":"webAPINetworkExample1.spec.ts","children":[{"name":"Example 1","uid":"e0924765848a4d09","parentUid":"d1e7dc754aa2a9c6dd2efb6d4962a84e","status":"failed","time":{"start":1739648628067,"stop":1739648630968,"duration":2901},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"webAPINetworkExample1.spec.ts"},{"name":"webAPINetworkExample2.spec.ts","children":[{"name":"Security test request intercept","uid":"7d6f09d626f30806","parentUid":"d8131fdade20afe81282207ae62e3aa2","status":"passed","time":{"start":1739648632859,"stop":1739648638946,"duration":6087},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"webAPINetworkExample2.spec.ts"},{"name":"webAPINetworkExample3.spec.ts","children":[{"name":"Example 2","uid":"f42c63b12ec446d7","parentUid":"3b4168e4e9d148f227eb15a03844dbc7","status":"passed","time":{"start":1739648633777,"stop":1739648637109,"duration":3332},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"webAPINetworkExample3.spec.ts"}],"uid":"993e5f6e504cf203e5154afb2b33358c"}],"uid":"src.tests"}]}
+{
+  "uid": "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name": "packages",
+  "children": [
+    {
+      "name": "src.tests",
+      "children": [
+        {
+          "name": "api.reqres",
+          "children": [
+            {
+              "name": "delete.spec.ts",
+              "children": [
+                {
+                  "name": "DELETE API Test - Delete user - Successful",
+                  "uid": "6168dba0ec47a0b1",
+                  "parentUid": "fb8b51d0911c7bdf8f66bbd30debc320",
+                  "status": "passed",
+                  "time": {
+                    "start": 1739648624896,
+                    "stop": 1739648625203,
+                    "duration": 307
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "delete.spec.ts"
+            },
+            {
+              "name": "get.spec.ts",
+              "children": [
+                {
+                  "name": "GET API Test - Assert invalid endpoint",
+                  "uid": "ba56159eb4717cbb",
+                  "parentUid": "4a8f4d0418d35843e2cca1e17a74e417",
+                  "status": "passed",
+                  "time": {
+                    "start": 1739648624898,
+                    "stop": 1739648625218,
+                    "duration": 320
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                },
+                {
+                  "name": "GET API Test - Get user detail",
+                  "uid": "84473e34809796a4",
+                  "parentUid": "4a8f4d0418d35843e2cca1e17a74e417",
+                  "status": "passed",
+                  "time": {
+                    "start": 1739648624898,
+                    "stop": 1739648625159,
+                    "duration": 261
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                },
+                {
+                  "name": "GET API Test - Assert response status",
+                  "uid": "1535d2dd25f0373e",
+                  "parentUid": "4a8f4d0418d35843e2cca1e17a74e417",
+                  "status": "passed",
+                  "time": {
+                    "start": 1739648624899,
+                    "stop": 1739648625148,
+                    "duration": 249
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "get.spec.ts"
+            },
+            {
+              "name": "post.spec.ts",
+              "children": [
+                {
+                  "name": "POST API Test - Create new user - Successful",
+                  "uid": "b29cdc167b550cf1",
+                  "parentUid": "7e8617a5f898912ebd4dfdecd2602647",
+                  "status": "passed",
+                  "time": {
+                    "start": 1739648625168,
+                    "stop": 1739648625299,
+                    "duration": 131
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                },
+                {
+                  "name": "POST API Test - Register new user - Successful",
+                  "uid": "63193f8d0ef161bc",
+                  "parentUid": "7e8617a5f898912ebd4dfdecd2602647",
+                  "status": "passed",
+                  "time": {
+                    "start": 1739648625169,
+                    "stop": 1739648625332,
+                    "duration": 163
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                },
+                {
+                  "name": "POST API Test - Register new user - Unsuccessful",
+                  "uid": "7a2070c70e194a08",
+                  "parentUid": "7e8617a5f898912ebd4dfdecd2602647",
+                  "status": "passed",
+                  "time": {
+                    "start": 1739648625227,
+                    "stop": 1739648625322,
+                    "duration": 95
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                },
+                {
+                  "name": "POST API Test - Register login - Successful",
+                  "uid": "45fbc91583650583",
+                  "parentUid": "7e8617a5f898912ebd4dfdecd2602647",
+                  "status": "passed",
+                  "time": {
+                    "start": 1739648625270,
+                    "stop": 1739648625390,
+                    "duration": 120
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                },
+                {
+                  "name": "POST API Test - Register login - Unsuccessful",
+                  "uid": "e0d062aca80042ec",
+                  "parentUid": "7e8617a5f898912ebd4dfdecd2602647",
+                  "status": "passed",
+                  "time": {
+                    "start": 1739648625308,
+                    "stop": 1739648625398,
+                    "duration": 90
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "post.spec.ts"
+            },
+            {
+              "name": "putpatch.spec.ts",
+              "children": [
+                {
+                  "name": "PUT API Test - Update user - Successful",
+                  "uid": "e7743be169946791",
+                  "parentUid": "1a2d69d515d31f686c6d6b3855962d3e",
+                  "status": "passed",
+                  "time": {
+                    "start": 1739648625363,
+                    "stop": 1739648625509,
+                    "duration": 146
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                },
+                {
+                  "name": "PATCH API Test - Update user - Successful",
+                  "uid": "ab049efcffc8ce80",
+                  "parentUid": "1a2d69d515d31f686c6d6b3855962d3e",
+                  "status": "passed",
+                  "time": {
+                    "start": 1739648625366,
+                    "stop": 1739648625467,
+                    "duration": 101
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "putpatch.spec.ts"
+            }
+          ],
+          "uid": "api.reqres"
+        },
+        {
+          "name": "uiandapi",
+          "children": [
+            {
+              "name": "uiexample1.spec.ts",
+              "children": [
+                {
+                  "name": "Example 1",
+                  "uid": "9836d349c05470f8",
+                  "parentUid": "09f845384528394d280822f60ee9ff45",
+                  "status": "passed",
+                  "time": {
+                    "start": 1739648625399,
+                    "stop": 1739648631482,
+                    "duration": 6083
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                },
+                {
+                  "name": "Example 2",
+                  "uid": "39feb99ff0133315",
+                  "parentUid": "09f845384528394d280822f60ee9ff45",
+                  "status": "passed",
+                  "time": {
+                    "start": 1739648631892,
+                    "stop": 1739648636087,
+                    "duration": 4195
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "uiexample1.spec.ts"
+            },
+            {
+              "name": "uiexample2.spec.ts",
+              "children": [
+                {
+                  "name": "Example 1",
+                  "uid": "a86ff3bba2e01b32",
+                  "parentUid": "fb2fd382bd352b6f6715938869b696e3",
+                  "status": "passed",
+                  "time": {
+                    "start": 1739648625411,
+                    "stop": 1739648628694,
+                    "duration": 3283
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                },
+                {
+                  "name": "Example 2",
+                  "uid": "c638019e088636a5",
+                  "parentUid": "fb2fd382bd352b6f6715938869b696e3",
+                  "status": "passed",
+                  "time": {
+                    "start": 1739648629119,
+                    "stop": 1739648637469,
+                    "duration": 8350
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                },
+                {
+                  "name": "Example 3",
+                  "uid": "bcdf26949aba9b54",
+                  "parentUid": "fb2fd382bd352b6f6715938869b696e3",
+                  "status": "passed",
+                  "time": {
+                    "start": 1739648637479,
+                    "stop": 1739648644609,
+                    "duration": 7130
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "uiexample2.spec.ts"
+            },
+            {
+              "name": "uiexample3.spec.ts",
+              "children": [
+                {
+                  "name": "Example 1",
+                  "uid": "64b4b87d4bb226dd",
+                  "parentUid": "fab284d3cf954484b7e0f0a1c34d2014",
+                  "status": "passed",
+                  "time": {
+                    "start": 1739648625473,
+                    "stop": 1739648627731,
+                    "duration": 2258
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "uiexample3.spec.ts"
+            },
+            {
+              "name": "webAPIExample1.spec.ts",
+              "children": [
+                {
+                  "name": "Example 1",
+                  "uid": "bbc63e24338e9052",
+                  "parentUid": "299811a8876fc3569f448aa3708e2adb",
+                  "status": "passed",
+                  "time": {
+                    "start": 1739648625516,
+                    "stop": 1739648629293,
+                    "duration": 3777
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                },
+                {
+                  "name": "Example 2",
+                  "uid": "1aa10d184f9fbf09",
+                  "parentUid": "299811a8876fc3569f448aa3708e2adb",
+                  "status": "passed",
+                  "time": {
+                    "start": 1739648630512,
+                    "stop": 1739648633757,
+                    "duration": 3245
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "webAPIExample1.spec.ts"
+            },
+            {
+              "name": "webAPIExample2.spec.ts",
+              "children": [
+                {
+                  "name": "Example 1",
+                  "uid": "6647027f1d854d5c",
+                  "parentUid": "5ae7f334e16b0c5f7388a816d790e2f2",
+                  "status": "skipped",
+                  "time": {
+                    "start": 1739648628059,
+                    "stop": 1739648628060,
+                    "duration": 1
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "webAPIExample2.spec.ts"
+            },
+            {
+              "name": "webAPINetworkExample1.spec.ts",
+              "children": [
+                {
+                  "name": "Example 1",
+                  "uid": "e0924765848a4d09",
+                  "parentUid": "d1e7dc754aa2a9c6dd2efb6d4962a84e",
+                  "status": "failed",
+                  "time": {
+                    "start": 1739648628067,
+                    "stop": 1739648630968,
+                    "duration": 2901
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "webAPINetworkExample1.spec.ts"
+            },
+            {
+              "name": "webAPINetworkExample2.spec.ts",
+              "children": [
+                {
+                  "name": "Security test request intercept",
+                  "uid": "7d6f09d626f30806",
+                  "parentUid": "d8131fdade20afe81282207ae62e3aa2",
+                  "status": "passed",
+                  "time": {
+                    "start": 1739648632859,
+                    "stop": 1739648638946,
+                    "duration": 6087
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "webAPINetworkExample2.spec.ts"
+            },
+            {
+              "name": "webAPINetworkExample3.spec.ts",
+              "children": [
+                {
+                  "name": "Example 2",
+                  "uid": "f42c63b12ec446d7",
+                  "parentUid": "3b4168e4e9d148f227eb15a03844dbc7",
+                  "status": "passed",
+                  "time": {
+                    "start": 1739648633777,
+                    "stop": 1739648637109,
+                    "duration": 3332
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 0,
+                  "retriesStatusChange": false,
+                  "parameters": [],
+                  "tags": []
+                }
+              ],
+              "uid": "webAPINetworkExample3.spec.ts"
+            }
+          ],
+          "uid": "993e5f6e504cf203e5154afb2b33358c"
+        }
+      ],
+      "uid": "src.tests"
+    }
+  ]
+}

@@ -1,1 +1,146 @@
-{"uuid":"ffbb2ead-d352-467d-8a69-c4ffc75b429a","name":"Example 2","historyId":"25c2e51b1175696e8360522c5c790c09:d41d8cd98f00b204e9800998ecf8427e","status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648631891,"name":"Before Hooks","stop":1739648631893},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648631894,"name":"browser.newContext","stop":1739648631898},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648631901,"name":"browserContext.newPage","stop":1739648632024},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648632025,"name":"page.goto(https://rahulshettyacademy.com/loginpagePractise/)","stop":1739648632574},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648632575,"name":"locator.waitFor([href*='documents-request'])","stop":1739648632604},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648632606,"name":"locator.click([href*='documents-request'])","stop":1739648632650}],"attachments":[],"parameters":[],"start":1739648632605,"name":"browserContext.waitForEvent","stop":1739648632829},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648632834,"name":"page.waitForLoadState","stop":1739648636053},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648636054,"name":"locator.textContent(.red)","stop":1739648636086},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648636087,"name":"After Hooks","stop":1739648636088}],"attachments":[{"name":"stdout","source":"a833c97b-0763-45dd-a2a4-7027adac0a1d-attachment.txt","type":"text/plain"}],"parameters":[],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"src.tests.uiandapi.uiexample1.spec.ts"},{"name":"titlePath","value":" >  > src/tests/uiandapi/uiexample1.spec.ts"},{"name":"host","value":"Azeezs-MBP"},{"name":"thread","value":"pid-5848-worker-2"},{"name":"suite","value":"src/tests/uiandapi/uiexample1.spec.ts"}],"links":[],"start":1739648631892,"testCaseId":"25c2e51b1175696e8360522c5c790c09","fullName":"src/tests/uiandapi/uiexample1.spec.ts:28:5","stop":1739648636087}
+{
+  "uuid": "ffbb2ead-d352-467d-8a69-c4ffc75b429a",
+  "name": "Example 2",
+  "historyId": "25c2e51b1175696e8360522c5c790c09:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648631891,
+      "name": "Before Hooks",
+      "stop": 1739648631893
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648631894,
+      "name": "browser.newContext",
+      "stop": 1739648631898
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648631901,
+      "name": "browserContext.newPage",
+      "stop": 1739648632024
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648632025,
+      "name": "page.goto(https://rahulshettyacademy.com/loginpagePractise/)",
+      "stop": 1739648632574
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648632575,
+      "name": "locator.waitFor([href*='documents-request'])",
+      "stop": 1739648632604
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648632606,
+          "name": "locator.click([href*='documents-request'])",
+          "stop": 1739648632650
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648632605,
+      "name": "browserContext.waitForEvent",
+      "stop": 1739648632829
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648632834,
+      "name": "page.waitForLoadState",
+      "stop": 1739648636053
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648636054,
+      "name": "locator.textContent(.red)",
+      "stop": 1739648636086
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648636087,
+      "name": "After Hooks",
+      "stop": 1739648636088
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "a833c97b-0763-45dd-a2a4-7027adac0a1d-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "src.tests.uiandapi.uiexample1.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " >  > src/tests/uiandapi/uiexample1.spec.ts"
+    },
+    { "name": "host", "value": "Azeezs-MBP" },
+    { "name": "thread", "value": "pid-5848-worker-2" },
+    { "name": "suite", "value": "src/tests/uiandapi/uiexample1.spec.ts" }
+  ],
+  "links": [],
+  "start": 1739648631892,
+  "testCaseId": "25c2e51b1175696e8360522c5c790c09",
+  "fullName": "src/tests/uiandapi/uiexample1.spec.ts:28:5",
+  "stop": 1739648636087
+}

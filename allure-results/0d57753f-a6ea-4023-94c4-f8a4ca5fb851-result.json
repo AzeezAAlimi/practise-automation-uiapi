@@ -1,1 +1,293 @@
-{"uuid":"0d57753f-a6ea-4023-94c4-f8a4ca5fb851","name":"Example 1","historyId":"97cd0d52896b433ddc9cf0e3a60e1da9:d41d8cd98f00b204e9800998ecf8427e","status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648625404,"name":"browserType.launch","stop":1739648625797}],"attachments":[],"parameters":[],"start":1739648625402,"name":"fixture: browser","stop":1739648625801},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648625807,"name":"browser.newContext","stop":1739648625820}],"attachments":[],"parameters":[],"start":1739648625804,"name":"fixture: context","stop":1739648625822},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648625827,"name":"browserContext.newPage","stop":1739648626045}],"attachments":[],"parameters":[],"start":1739648625823,"name":"fixture: page","stop":1739648626046}],"attachments":[],"parameters":[],"start":1739648625399,"name":"Before Hooks","stop":1739648626046},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648626048,"name":"page.goto(https://rahulshettyacademy.com/loginpagePractise/)","stop":1739648626655},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648626656,"name":"page.title","stop":1739648626663},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648626669,"name":"locator.getByRole('textbox', { name: 'Username' }).fill","stop":1739648626754},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648626756,"name":"locator.getByRole('textbox', { name: 'Password' }).fill","stop":1739648626872},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648626878,"name":"locator.selectOption(select.form-control)","stop":1739648626892},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648626894,"name":"locator.getByRole('radio', { name: 'User' }).click","stop":1739648626950},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648626952,"name":"locator.getByRole('button', { name: 'Okay' }).click","stop":1739648627570},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648627573,"name":"locator.getByRole('checkbox', { name: 'I Agree to the terms and conditions' }).click","stop":1739648627973},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648627974,"name":"locator.getByRole('button', { name: 'Sign In' }).click","stop":1739648628025},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648628027,"name":"page.waitForURL","stop":1739648631676},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648631686,"name":"expect.toBe","stop":1739648631690},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648631695,"name":"locator.textContent(.card-body a >> nth=0)","stop":1739648631848},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648631850,"name":"locator.allTextContents(.card-body a)","stop":1739648631865},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648631868,"name":"fixture: page","stop":1739648631869},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648631869,"name":"fixture: context","stop":1739648631869}],"attachments":[],"parameters":[],"start":1739648631867,"name":"After Hooks","stop":1739648631890}],"attachments":[{"name":"stdout","source":"e03b389c-8506-40ca-9ba8-1d8705ea1f66-attachment.txt","type":"text/plain"}],"parameters":[],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"src.tests.uiandapi.uiexample1.spec.ts"},{"name":"titlePath","value":" >  > src/tests/uiandapi/uiexample1.spec.ts"},{"name":"host","value":"Azeezs-MBP"},{"name":"thread","value":"pid-5848-worker-2"},{"name":"suite","value":"src/tests/uiandapi/uiexample1.spec.ts"}],"links":[],"start":1739648625399,"testCaseId":"97cd0d52896b433ddc9cf0e3a60e1da9","fullName":"src/tests/uiandapi/uiexample1.spec.ts:3:5","stop":1739648631482}
+{
+  "uuid": "0d57753f-a6ea-4023-94c4-f8a4ca5fb851",
+  "name": "Example 1",
+  "historyId": "97cd0d52896b433ddc9cf0e3a60e1da9:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648625404,
+              "name": "browserType.launch",
+              "stop": 1739648625797
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648625402,
+          "name": "fixture: browser",
+          "stop": 1739648625801
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648625807,
+              "name": "browser.newContext",
+              "stop": 1739648625820
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648625804,
+          "name": "fixture: context",
+          "stop": 1739648625822
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648625827,
+              "name": "browserContext.newPage",
+              "stop": 1739648626045
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648625823,
+          "name": "fixture: page",
+          "stop": 1739648626046
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648625399,
+      "name": "Before Hooks",
+      "stop": 1739648626046
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648626048,
+      "name": "page.goto(https://rahulshettyacademy.com/loginpagePractise/)",
+      "stop": 1739648626655
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648626656,
+      "name": "page.title",
+      "stop": 1739648626663
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648626669,
+      "name": "locator.getByRole('textbox', { name: 'Username' }).fill",
+      "stop": 1739648626754
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648626756,
+      "name": "locator.getByRole('textbox', { name: 'Password' }).fill",
+      "stop": 1739648626872
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648626878,
+      "name": "locator.selectOption(select.form-control)",
+      "stop": 1739648626892
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648626894,
+      "name": "locator.getByRole('radio', { name: 'User' }).click",
+      "stop": 1739648626950
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648626952,
+      "name": "locator.getByRole('button', { name: 'Okay' }).click",
+      "stop": 1739648627570
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648627573,
+      "name": "locator.getByRole('checkbox', { name: 'I Agree to the terms and conditions' }).click",
+      "stop": 1739648627973
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648627974,
+      "name": "locator.getByRole('button', { name: 'Sign In' }).click",
+      "stop": 1739648628025
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648628027,
+      "name": "page.waitForURL",
+      "stop": 1739648631676
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648631686,
+      "name": "expect.toBe",
+      "stop": 1739648631690
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648631695,
+      "name": "locator.textContent(.card-body a >> nth=0)",
+      "stop": 1739648631848
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648631850,
+      "name": "locator.allTextContents(.card-body a)",
+      "stop": 1739648631865
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648631868,
+          "name": "fixture: page",
+          "stop": 1739648631869
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648631869,
+          "name": "fixture: context",
+          "stop": 1739648631869
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648631867,
+      "name": "After Hooks",
+      "stop": 1739648631890
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "e03b389c-8506-40ca-9ba8-1d8705ea1f66-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "src.tests.uiandapi.uiexample1.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " >  > src/tests/uiandapi/uiexample1.spec.ts"
+    },
+    { "name": "host", "value": "Azeezs-MBP" },
+    { "name": "thread", "value": "pid-5848-worker-2" },
+    { "name": "suite", "value": "src/tests/uiandapi/uiexample1.spec.ts" }
+  ],
+  "links": [],
+  "start": 1739648625399,
+  "testCaseId": "97cd0d52896b433ddc9cf0e3a60e1da9",
+  "fullName": "src/tests/uiandapi/uiexample1.spec.ts:3:5",
+  "stop": 1739648631482
+}

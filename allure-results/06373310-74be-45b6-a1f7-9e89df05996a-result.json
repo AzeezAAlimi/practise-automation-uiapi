@@ -1,1 +1,294 @@
-{"uuid":"06373310-74be-45b6-a1f7-9e89df05996a","name":"Example 1","historyId":"87a936d91664836ee15cc2e3b9b33479:d41d8cd98f00b204e9800998ecf8427e","status":"failed","statusDetails":{"message":"Error: page.goto: Test ended.\nCall log:\n  - navigating to \"https://rahulshettyacademy.com/client\", waiting until \"load\"\n","trace":"Error: page.goto: Test ended.\nCall log:\n  - navigating to \"https://rahulshettyacademy.com/client\", waiting until \"load\"\n\n    at LoginPage.goto (/Users/azeezalimi/Desktop/Automation/practiseAPI/src/pom/loginPage.ts:17:21)\n    at /Users/azeezalimi/Desktop/Automation/practiseAPI/src/tests/uiandapi/webAPINetworkExample1.spec.ts:27:13"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648628072,"name":"apiRequest.newContext","stop":1739648628075},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648628078,"name":"apiRequestContext.post(https://rahulshettyacademy.com/api/ecom/auth/login)","stop":1739648628838},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648628840,"name":"apiResponse.json","stop":1739648628841},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648628843,"name":"apiRequestContext.post(https://rahulshettyacademy.com/api/ecom/order/create-order)","stop":1739648629060},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648629061,"name":"apiResponse.json","stop":1739648629062}],"attachments":[],"parameters":[],"start":1739648628068,"name":"beforeAll hook","stop":1739648629063},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648629066,"name":"browser.newContext","stop":1739648629070}],"attachments":[],"parameters":[],"start":1739648629066,"name":"fixture: context","stop":1739648629070},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648629072,"name":"browserContext.newPage","stop":1739648629155}],"attachments":[],"parameters":[],"start":1739648629071,"name":"fixture: page","stop":1739648629156}],"attachments":[],"parameters":[],"start":1739648628068,"name":"Before Hooks","stop":1739648629156},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648629158,"name":"page.addInitScript","stop":1739648629163},{"status":"failed","statusDetails":{"message":"Tearing down \"context\" exceeded the test timeout of 30000ms.","trace":"Tearing down \"context\" exceeded the test timeout of 30000ms."},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648629170,"name":"page.route","stop":1739648629787},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648631727,"name":"apiRequestContext.fetch(https://rahulshettyacademy.com/api/ecom/order/get-orders-for-customer/67a9ef9cc019fb1ad6f11429)","stop":1739648633721},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648631785,"name":"page.waitForResponse","stop":1739648632001}],"attachments":[],"parameters":[],"start":1739648629789,"name":"locator.click(button[routerlink*='myorders'])","stop":1739648629958},{"status":"failed","statusDetails":{"message":"Error: page.goto: Test ended.\nCall log:\n  - navigating to \"https://rahulshettyacademy.com/client\", waiting until \"load\"\n","trace":"Error: page.goto: Test ended.\nCall log:\n  - navigating to \"https://rahulshettyacademy.com/client\", waiting until \"load\"\n\n    at LoginPage.goto (/Users/azeezalimi/Desktop/Automation/practiseAPI/src/pom/loginPage.ts:17:21)\n    at /Users/azeezalimi/Desktop/Automation/practiseAPI/src/tests/uiandapi/webAPINetworkExample1.spec.ts:27:13"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648631956,"name":"fixture: page","stop":1739648631956},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648631956,"name":"fixture: context","stop":1739648631957}],"attachments":[],"parameters":[],"start":1739648631954,"name":"After Hooks","stop":1739648634753}],"attachments":[],"parameters":[],"start":1739648629167,"name":"page.goto(https://rahulshettyacademy.com/client)","stop":1739648629183},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648631971,"name":"fixture: browser","stop":1739648632010}],"attachments":[],"parameters":[],"start":1739648631970,"name":"Worker Cleanup","stop":1739648632011}],"attachments":[],"parameters":[],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"src.tests.uiandapi.webAPINetworkExample1.spec.ts"},{"name":"titlePath","value":" >  > src/tests/uiandapi/webAPINetworkExample1.spec.ts"},{"name":"host","value":"Azeezs-MBP"},{"name":"thread","value":"pid-5848-worker-0"},{"name":"suite","value":"src/tests/uiandapi/webAPINetworkExample1.spec.ts"}],"links":[],"start":1739648628067,"testCaseId":"87a936d91664836ee15cc2e3b9b33479","fullName":"src/tests/uiandapi/webAPINetworkExample1.spec.ts:22:5","stop":1739648630968}
+{
+  "uuid": "06373310-74be-45b6-a1f7-9e89df05996a",
+  "name": "Example 1",
+  "historyId": "87a936d91664836ee15cc2e3b9b33479:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: page.goto: Test ended.\nCall log:\n  - navigating to \"https://rahulshettyacademy.com/client\", waiting until \"load\"\n",
+    "trace": "Error: page.goto: Test ended.\nCall log:\n  - navigating to \"https://rahulshettyacademy.com/client\", waiting until \"load\"\n\n    at LoginPage.goto (/Users/azeezalimi/Desktop/Automation/practiseAPI/src/pom/loginPage.ts:17:21)\n    at /Users/azeezalimi/Desktop/Automation/practiseAPI/src/tests/uiandapi/webAPINetworkExample1.spec.ts:27:13"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648628072,
+              "name": "apiRequest.newContext",
+              "stop": 1739648628075
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648628078,
+              "name": "apiRequestContext.post(https://rahulshettyacademy.com/api/ecom/auth/login)",
+              "stop": 1739648628838
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648628840,
+              "name": "apiResponse.json",
+              "stop": 1739648628841
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648628843,
+              "name": "apiRequestContext.post(https://rahulshettyacademy.com/api/ecom/order/create-order)",
+              "stop": 1739648629060
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648629061,
+              "name": "apiResponse.json",
+              "stop": 1739648629062
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648628068,
+          "name": "beforeAll hook",
+          "stop": 1739648629063
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648629066,
+              "name": "browser.newContext",
+              "stop": 1739648629070
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648629066,
+          "name": "fixture: context",
+          "stop": 1739648629070
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648629072,
+              "name": "browserContext.newPage",
+              "stop": 1739648629155
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648629071,
+          "name": "fixture: page",
+          "stop": 1739648629156
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648628068,
+      "name": "Before Hooks",
+      "stop": 1739648629156
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648629158,
+      "name": "page.addInitScript",
+      "stop": 1739648629163
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Tearing down \"context\" exceeded the test timeout of 30000ms.",
+        "trace": "Tearing down \"context\" exceeded the test timeout of 30000ms."
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648629170,
+          "name": "page.route",
+          "stop": 1739648629787
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648631727,
+              "name": "apiRequestContext.fetch(https://rahulshettyacademy.com/api/ecom/order/get-orders-for-customer/67a9ef9cc019fb1ad6f11429)",
+              "stop": 1739648633721
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648631785,
+              "name": "page.waitForResponse",
+              "stop": 1739648632001
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648629789,
+          "name": "locator.click(button[routerlink*='myorders'])",
+          "stop": 1739648629958
+        },
+        {
+          "status": "failed",
+          "statusDetails": {
+            "message": "Error: page.goto: Test ended.\nCall log:\n  - navigating to \"https://rahulshettyacademy.com/client\", waiting until \"load\"\n",
+            "trace": "Error: page.goto: Test ended.\nCall log:\n  - navigating to \"https://rahulshettyacademy.com/client\", waiting until \"load\"\n\n    at LoginPage.goto (/Users/azeezalimi/Desktop/Automation/practiseAPI/src/pom/loginPage.ts:17:21)\n    at /Users/azeezalimi/Desktop/Automation/practiseAPI/src/tests/uiandapi/webAPINetworkExample1.spec.ts:27:13"
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648631956,
+              "name": "fixture: page",
+              "stop": 1739648631956
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648631956,
+              "name": "fixture: context",
+              "stop": 1739648631957
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648631954,
+          "name": "After Hooks",
+          "stop": 1739648634753
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648629167,
+      "name": "page.goto(https://rahulshettyacademy.com/client)",
+      "stop": 1739648629183
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648631971,
+          "name": "fixture: browser",
+          "stop": 1739648632010
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648631970,
+      "name": "Worker Cleanup",
+      "stop": 1739648632011
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    {
+      "name": "package",
+      "value": "src.tests.uiandapi.webAPINetworkExample1.spec.ts"
+    },
+    {
+      "name": "titlePath",
+      "value": " >  > src/tests/uiandapi/webAPINetworkExample1.spec.ts"
+    },
+    { "name": "host", "value": "Azeezs-MBP" },
+    { "name": "thread", "value": "pid-5848-worker-0" },
+    {
+      "name": "suite",
+      "value": "src/tests/uiandapi/webAPINetworkExample1.spec.ts"
+    }
+  ],
+  "links": [],
+  "start": 1739648628067,
+  "testCaseId": "87a936d91664836ee15cc2e3b9b33479",
+  "fullName": "src/tests/uiandapi/webAPINetworkExample1.spec.ts:22:5",
+  "stop": 1739648630968
+}

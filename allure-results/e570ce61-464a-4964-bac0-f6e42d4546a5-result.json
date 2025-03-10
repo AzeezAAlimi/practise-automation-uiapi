@@ -1,1 +1,272 @@
-{"uuid":"e570ce61-464a-4964-bac0-f6e42d4546a5","name":"Example 1","historyId":"db1f0880d8a6ab6f4803cc4374003030:d41d8cd98f00b204e9800998ecf8427e","status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648625521,"name":"apiRequest.newContext","stop":1739648625522},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648625526,"name":"apiRequestContext.post(https://rahulshettyacademy.com/api/ecom/auth/login)","stop":1739648626257},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648626260,"name":"apiResponse.json","stop":1739648626261},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648626264,"name":"apiRequestContext.post(https://rahulshettyacademy.com/api/ecom/order/create-order)","stop":1739648626488},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648626490,"name":"apiResponse.json","stop":1739648626491}],"attachments":[],"parameters":[],"start":1739648625516,"name":"beforeAll hook","stop":1739648626492},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648626498,"name":"browserType.launch","stop":1739648626732}],"attachments":[],"parameters":[],"start":1739648626496,"name":"fixture: browser","stop":1739648626732},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648626736,"name":"browser.newContext","stop":1739648626744}],"attachments":[],"parameters":[],"start":1739648626733,"name":"fixture: context","stop":1739648626746},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648626749,"name":"browserContext.newPage","stop":1739648626991}],"attachments":[],"parameters":[],"start":1739648626747,"name":"fixture: page","stop":1739648626991}],"attachments":[],"parameters":[],"start":1739648625516,"name":"Before Hooks","stop":1739648626991},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648626993,"name":"page.addInitScript","stop":1739648626994},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648626995,"name":"page.goto(https://rahulshettyacademy.com/client)","stop":1739648630427},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648630428,"name":"locator.waitFor(.card-body b >> nth=0)","stop":1739648630468},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648630470,"name":"locator.textContent(.card-body b >> nth=0)","stop":1739648630474},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648630476,"name":"locator.allTextContents(.card-body b)","stop":1739648630493},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648630494,"name":"fixture: page","stop":1739648630495},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1739648630495,"name":"fixture: context","stop":1739648630495}],"attachments":[],"parameters":[],"start":1739648630494,"name":"After Hooks","stop":1739648630510}],"attachments":[{"name":"stdout","source":"6905624f-778f-4815-a164-86e48f902857-attachment.txt","type":"text/plain"}],"parameters":[],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"src.tests.uiandapi.webAPIExample1.spec.ts"},{"name":"titlePath","value":" >  > src/tests/uiandapi/webAPIExample1.spec.ts"},{"name":"host","value":"Azeezs-MBP"},{"name":"thread","value":"pid-5848-worker-3"},{"name":"suite","value":"src/tests/uiandapi/webAPIExample1.spec.ts"}],"links":[],"start":1739648625516,"testCaseId":"db1f0880d8a6ab6f4803cc4374003030","fullName":"src/tests/uiandapi/webAPIExample1.spec.ts:21:5","stop":1739648629293}
+{
+  "uuid": "e570ce61-464a-4964-bac0-f6e42d4546a5",
+  "name": "Example 1",
+  "historyId": "db1f0880d8a6ab6f4803cc4374003030:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648625521,
+              "name": "apiRequest.newContext",
+              "stop": 1739648625522
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648625526,
+              "name": "apiRequestContext.post(https://rahulshettyacademy.com/api/ecom/auth/login)",
+              "stop": 1739648626257
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648626260,
+              "name": "apiResponse.json",
+              "stop": 1739648626261
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648626264,
+              "name": "apiRequestContext.post(https://rahulshettyacademy.com/api/ecom/order/create-order)",
+              "stop": 1739648626488
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648626490,
+              "name": "apiResponse.json",
+              "stop": 1739648626491
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648625516,
+          "name": "beforeAll hook",
+          "stop": 1739648626492
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648626498,
+              "name": "browserType.launch",
+              "stop": 1739648626732
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648626496,
+          "name": "fixture: browser",
+          "stop": 1739648626732
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648626736,
+              "name": "browser.newContext",
+              "stop": 1739648626744
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648626733,
+          "name": "fixture: context",
+          "stop": 1739648626746
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1739648626749,
+              "name": "browserContext.newPage",
+              "stop": 1739648626991
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648626747,
+          "name": "fixture: page",
+          "stop": 1739648626991
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648625516,
+      "name": "Before Hooks",
+      "stop": 1739648626991
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648626993,
+      "name": "page.addInitScript",
+      "stop": 1739648626994
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648626995,
+      "name": "page.goto(https://rahulshettyacademy.com/client)",
+      "stop": 1739648630427
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648630428,
+      "name": "locator.waitFor(.card-body b >> nth=0)",
+      "stop": 1739648630468
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648630470,
+      "name": "locator.textContent(.card-body b >> nth=0)",
+      "stop": 1739648630474
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648630476,
+      "name": "locator.allTextContents(.card-body b)",
+      "stop": 1739648630493
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648630494,
+          "name": "fixture: page",
+          "stop": 1739648630495
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1739648630495,
+          "name": "fixture: context",
+          "stop": 1739648630495
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1739648630494,
+      "name": "After Hooks",
+      "stop": 1739648630510
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "6905624f-778f-4815-a164-86e48f902857-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "src.tests.uiandapi.webAPIExample1.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " >  > src/tests/uiandapi/webAPIExample1.spec.ts"
+    },
+    { "name": "host", "value": "Azeezs-MBP" },
+    { "name": "thread", "value": "pid-5848-worker-3" },
+    { "name": "suite", "value": "src/tests/uiandapi/webAPIExample1.spec.ts" }
+  ],
+  "links": [],
+  "start": 1739648625516,
+  "testCaseId": "db1f0880d8a6ab6f4803cc4374003030",
+  "fullName": "src/tests/uiandapi/webAPIExample1.spec.ts:21:5",
+  "stop": 1739648629293
+}
