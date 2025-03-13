@@ -14,16 +14,16 @@ test.describe('Checkout challenge', async () => {
     await page.locator("[data-test='nav-cart']").click();
     await page.locator("[data-test='proceed-1']").click();
     await page.locator("[data-test='proceed-2']").click();
-    await page.getByRole('textbox',{ name: 'Street'}).clear();
-    await page.getByRole('textbox',{ name: 'Street'}).fill('123 Testing Way');
-    await page.getByRole('textbox',{ name: 'City'}).clear();
-    await page.getByRole('textbox',{ name: 'City'}).fill('Sacramento');
-    await page.getByRole('textbox',{ name: 'State'}).clear();
-    await page.getByRole('textbox',{ name: 'State'}).fill('California');
-    await page.getByRole('textbox',{ name: 'Country'}).clear();
-    await page.getByRole('textbox',{ name: 'Country'}).fill('USA');
-    await page.getByRole('textbox',{ name: 'Postal code'}).clear();
-    await page.getByRole('textbox',{ name: 'Postal code'}).fill('08765');
+    await page.getByRole('textbox', { name: 'Street' }).clear();
+    await page.getByRole('textbox', { name: 'Street' }).fill('123 Testing Way');
+    await page.getByRole('textbox', { name: 'City' }).clear();
+    await page.getByRole('textbox', { name: 'City' }).fill('Sacramento');
+    await page.getByRole('textbox', { name: 'State' }).clear();
+    await page.getByRole('textbox', { name: 'State' }).fill('California');
+    await page.getByRole('textbox', { name: 'Country' }).clear();
+    await page.getByRole('textbox', { name: 'Country' }).fill('USA');
+    await page.getByRole('textbox', { name: 'Postal code' }).clear();
+    await page.getByRole('textbox', { name: 'Postal code' }).fill('08765');
     await page.locator("[data-test='proceed-3']").click();
     await expect(page.locator("[data-test='finish']")).toBeDisabled();
     await page
