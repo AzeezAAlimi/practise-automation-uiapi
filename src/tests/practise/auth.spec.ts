@@ -1,4 +1,3 @@
-//import { test as setup, expect } from '@playwright/test';
 import { test, expect } from '@playwright/test';
 
 test('Create customer 01 auth', async ({ page, context }) => {
