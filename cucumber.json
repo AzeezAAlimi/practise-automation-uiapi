@@ -1,7 +1,7 @@
 {
   "default": {
-    "require": ["steps/**/*.ts"],
-    "paths": ["features/**/*.feature"],
+    "require": ["cucumber/steps/**/*.ts"],
+    "paths": ["cucumber/features/**/*.feature"],
     "requireModule": ["ts-node/register"]
   }
 }
